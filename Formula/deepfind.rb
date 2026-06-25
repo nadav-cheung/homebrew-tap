@@ -5,7 +5,7 @@ class Deepfind < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/nadav-cheung/DeepFinder/releases/download/v0.1.1/deepfind-aarch64-apple-darwin.tar.xz"
-      sha256 "4ca429b97521913cf0c11e7449daf42d3fbf9197eee3058dcdf07d90d424b0ca"
+      sha256 "4c7f8cd7f6a4cec00ec7295c5d3e93c673f6efb029e6f7086645e369a7e42855"
     end
     if Hardware::CPU.intel?
       url "https://github.com/nadav-cheung/DeepFinder/releases/download/v0.1.1/deepfind-x86_64-apple-darwin.tar.xz"
