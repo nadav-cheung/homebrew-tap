@@ -1,15 +1,15 @@
 class Deepfind < Formula
   desc "Fast local file search for macOS — trigram index + daemon + CLI"
   homepage "https://github.com/nadav-cheung/DeepFinder"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nadav-cheung/DeepFinder/releases/download/v0.1.5/deepfind-aarch64-apple-darwin.tar.xz"
-      sha256 "fe346c5508c2fe0dd58fa6531c7abc7b92c6366ac776402f79c20740a77a4050"
+      url "https://github.com/nadav-cheung/DeepFinder/releases/download/v0.1.6/deepfind-aarch64-apple-darwin.tar.xz"
+      sha256 "97e796a3b15eaf44b6846f24240c32abac0cc69db2e3dbdfc4cc271bdd3ed369"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nadav-cheung/DeepFinder/releases/download/v0.1.5/deepfind-x86_64-apple-darwin.tar.xz"
-      sha256 "57a516f52f77dda4f43960ccc3716c5fb7455e476b25ca92593d9e101346b926"
+      url "https://github.com/nadav-cheung/DeepFinder/releases/download/v0.1.6/deepfind-x86_64-apple-darwin.tar.xz"
+      sha256 "c03057156339d567b8867ca5de73518447a176addbb2e1b8ad3f6ded7b25277e"
     end
   end
   license "MIT"
